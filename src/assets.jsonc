@@ -7,67 +7,8 @@
 		{
 			"name": "initialLoad",
 			"assets": [
-				{
-					"name": "strings-en",
-					"srcs": "./lang/en.i18.json"
-				},
-				{
-					"name": "font2",
-					"srcs": "./fonts/Poppins-Light.ttf",
-					"data": {
-						"family": "Poppins"
-					}
-				},
-				{
-					"name": "font3",
-					"srcs": "./fonts/monbaiti.ttf",
-					"data": {
-						"family": "monbaiti"
-					}
-				},
-				{ 
-					"name": "monbaiti",
-					"srcs": "./fonts/sdf/monbaiti.json" 
-				},
-				{ 
-					"name": "monbaitiBig",
-					"srcs": "./fonts/sdf/monbaitiBig.json" 
-				},
-				{ 
-					"name": "monbaitiSmall",
-					"srcs": "./fonts/sdf/monbaitiSmall.json"
-				},
-				{
-					"name": "logo",
-					"srcs": "./preloader/logo.png"
-				}
+			
 			]
-		},
-		{
-			"name": "package-1",
-			"assets": {
-				"gradient": "./img/gradient.png",
-				"cover_photo": "./img/cover_photo.jpg",
-				"photo1": "./img/photo1.jpg",
-				"photo2": "./img/photo2.jpg",
-				"photo3": "./img/photo3.jpg",
-				"photo4": "./img/photo4.jpg",
-				"photo5": "./img/photo5.jpg",
-				"photo6": "./img/photo6.jpg"
-			}
-		},
-		{
-			"name": "music",
-			"assets": {
-				"music": "./music/music.mp3"
-			}
 		}
-		/* {
-			"name": "sfx",
-			"assets": {
-				"beep": "./sfx/beep.mp3"
-			}
-		},
-		, */
 	]
 }
