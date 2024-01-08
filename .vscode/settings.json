@@ -1,0 +1,33 @@
+{
+    "files.exclude": {
+        "**/build": true,
+        "**/node_modules": true
+    },
+    "files.eol": "\n",
+    "[typescript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+        "editor.formatOnSave": true,
+        "editor.insertSpaces": false,
+        "editor.detectIndentation": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": "explicit"
+        }
+    },
+    "eslint.alwaysShowStatus": true,
+    "eslint.format.enable": true,
+    "npm.packageManager": "npm",
+    "typescript.preferences.importModuleSpecifier": "relative",
+    "typescript.tsdk": "node_modules\\typescript\\lib",
+    "conventionalCommits.scopes": [
+        "ui",
+        "flow",
+        "engine",
+        "game",
+    ],
+    "conventionalCommits.autoCommit": false,
+    "conventionalCommits.emojiFormat": "emoji",
+    "[dockercompose]": {
+        "editor.autoIndent": "full"
+    },
+    "editor.foldingStrategy": "indentation",
+}
